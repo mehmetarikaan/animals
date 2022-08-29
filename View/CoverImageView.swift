@@ -20,6 +20,7 @@ struct CoverImageView: View {
             }//: Loop
         } //: Tab
         .tabViewStyle(PageTabViewStyle())
+        .padding(.bottom)
     }
 }
 
